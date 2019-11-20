@@ -8,6 +8,8 @@ h1 {
     font-family:'Montserrat','Extra-Bold';
     font-weight:600;
     height: 400px;
+    width : 100%;
+
 }
 p{
     font-size: 16px;
@@ -38,3 +40,4 @@ body{
 * {
     font-family:'Montserrat';
 }
+
