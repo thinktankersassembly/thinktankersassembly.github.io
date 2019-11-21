@@ -47,6 +47,7 @@
 }
 body{
     padding-top: 80px;
+    min-height: 100vh;
 }
 h1 {
     font-weight:900;
@@ -60,18 +61,25 @@ h1 {
     font-family:'Raleway';
     line-height:1.5em;
 }
-img {
+/* img {
     display: block;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
+  } */
 
 /* Bootstrap Stuff */
 .bg-light {
     background-color: transparent!important;
+  }
+html{
+    height: 100%;
+}
+
+footer {
+    flex-shrink: 0;
   }
 
 /* .page{
