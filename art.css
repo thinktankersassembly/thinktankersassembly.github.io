@@ -1,77 +1,85 @@
-h1 {
-    font-size: 4em;
-    margin-left: 5%;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.h1 {
+    padding-left: 8%;
+    padding-top: 200px;
+    padding-bottom: 10%;
     text-align: left;
-    font-family:'Montserrat','Extra-Bold';
-    font-weight:600;
-    height: 400px;
+    font-family:'Raleway';
+    font-weight:900;
+    height: 550px;
+    background:#4EBC8C;
+    color: white;
 }
-p{
-    font-size: 16px;
-    margin-left: 8px;
-    padding-left:8px;
+
+h1 {
     text-align: left;
+    font-family:'Raleway';
+    font-weight:900;
+    height: 550px;
+    color: white;
+    font-size: 1.7em;
 }
 body{
     padding: 0;
     margin: 0;
     border-collapse: collapse;
     border-spacing: 0;
+    padding-top :0px;
 }
-.table {
-    width:100%;
-    background: grey;
-    margin-left : 0px;
-    margin-right : 0px;
-    border-collapse: collapse;
-    border-spacing: 0;
-    font-size: 20px;
+* {
+    font-family:'Raleway';
+    line-height:1.5em;
 }
-.tab {
-    padding:0.3px;
-    margin: 0.2px;
-    width:13.75%;
-    height:60px;
-}
-.page{
-    margin-left: 4%;
-    margin-right: 4%;
-}
+
+img {
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+ .page{
+    margin-left: 72px;
+    margin-right: 72px;
+    width: 100%;
+    margin-top: 72px;
+    margin-bottom: 72px;
+} 
 .page1{
-    font-size: 18px;
-    font-weight: 150;
+    font-size: 1.125em;
+    font-weight: 400;
     text-align: left;
     width: 50%;
-    padding-left:4%;
-    padding-right: 4%;
+    padding-left:10%;
+    padding-right: 10%;
 }
 .headerpage1{
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     text-align: left;
     width: 50%;
 }
 .page2{
-    font-size: 18px;
-    font-weight: 150;
+    font-size: 1.125em;
+    font-weight: 400;
     text-align: right;
     width: 50%;
-    padding-left:4%;
-    padding-right: 4%;
+    padding-left:10%;
+    padding-right: 10%;
 }
 .headerpage2{
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 700;
     text-align: right;
-    width: 50%;
+    width: 50%
 }
 .picture{
-    text-align: center;
+    padding-left:10%;
+    padding-right: 10%;
+    margin: 10%;
 }
-* {
-    font-family:'Montserrat';
-    line-height:1.5em;
-}
+/* Bootstrap Stuff */
+.bg-light {
+    background-color: transparent!important;
+  }
