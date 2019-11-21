@@ -8,73 +8,105 @@
     <meta name="description" content="ThinkTankers'Assembly Official Website">
     <meta name="keywords" content="TTA, ThinkTankers'Assembly, Thinktankers Assembly">
     <meta name="author" content="Muhammad Riza Fairuzzabadi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Adding bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-    <link rel ="stylesheet" type="text/css" href="art.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,1000,1100,1200" rel="stylesheet">
+
+    <link rel ="stylesheet" type="text/css" href="cover.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <title>ThinkTankers'Assembly Official Website</title>
 
 </head>
 
-<body>
+<body id=coverbody>
 <!-- Navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
 <div class= container>
-    <a style=font-weight:800 class="navbar-brand" href="index.html">TTA</a>
+    <a style=font-weight:800 class="navbar-brand" href="index.html">TTA.</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-riza" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-riza">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">ThinkTankers'Assembly Official Website</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">ThinkTankers'Assembly.</a>
             </li>
         </ul>
     </div>
 </div>
 </nav>
 
-<div class="jumbotron jumbotron-fluid, h1">
-        <div class="container">
-            <h1>This is</br>Thinktankers'</br>Assembly.</h1>     
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="1.jpeg" alt="First slide">
+            <div class="carousel-caption">
+                    <h5>TTA General Stage.</h5>
+                    <p>18 Minutes long-performances by the participants. Aimed to develop participants' public speaking skills.</p>
+                    <p><a href="#"> Learn More</a></p>  
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="2.jpeg" alt="Second slide">
+            <div class="carousel-caption">
+                    <h5>Thinkathon.</h5>
+                    <p>A session where participants' can discuss about the topics given.</p>
+                    <p><a href="#"> Learn More</a></p>
+                  </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="3.jpeg" alt="Third slide">
+            <div class="carousel-caption">
+                    <h5>Annual Iftar.</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    <p><a href="#"> Learn More</a></p>
+                  </div>
+          </div>
         </div>
-</div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
-<div class="table-responsive,container">
-<table class=page,table>
-    <tr style="width: 100%; height: 250px;padding-top: 5%;padding-bottom: 5%;">
-        <td class="page1"><span class="headerpage1">TTA General Stage</span></br> 18 Minutes long-performances by the participants. Aimed to develop participants' public speaking skills.</td>
-        <td class="picture"> <img src="img.jpeg" alt="Forest"></td>
-    </tr>
-    <tr style="width: 100%; height: 250px;padding-top: 5%;padding-bottom: 5%;">
-        <td class="picture"> <img src="img.jpeg" alt="Forest"></td>
-        <td class=page2><span class="headerpage2">Thinkathon</span></br> A session where participants' can discuss about the topics given.</td>
-    </tr>
-    <tr style="width: 100%; height: 250px;padding-top: 5%;padding-bottom: 5%;">
-        <td class="page1"><span class="headerpage1">Annual Iftar</span></br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u </td>
-        <td class="picture"> <img src="img.jpeg" alt="Forest"></td>
-    </tr>
-</table>
-</div>
 
-<div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <p>Hello, can you hear me</p>
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id=cover>
+            <h1>This is</br>Thinktankers'</br>Assembly.</h1>
+            </div>
         </div>
-</div>
+    </div>
+</div> -->
+
 </body>
 </html>
