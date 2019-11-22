@@ -2,8 +2,8 @@
 .navbar-nav a{
     font-family: poppins;
     font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-weight: 500;
 }
 
 .navbar-light .navbar-brand{
@@ -46,8 +46,10 @@
     }
 }
 body{
-    padding-top: 80px;
+    padding-top: 70px;
     min-height: 100vh;
+    font-family: 'Raleway';
+    line-height:1.5em;
 }
 h1 {
     font-weight:900;
@@ -56,11 +58,28 @@ h1 {
     text-align: left;
     font-family:'Raleway';
     color: white;
-} 
-* {
-    font-family:'Raleway';
-    line-height:1.5em;
+    -webkit-text-stroke: 0.5px black;
 }
+/* h5{
+    font-weight: 900;
+    color:black;
+    text-align:center;
+    font-size: 2rem;
+} */
+h2{
+    font-weight:600;
+    font-size: 2.7em;
+}
+.blocktext{
+    font-weight:300;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+/* @media (max-width: 1200px){
+    h5{
+        font-size : 3em; 
+    }
+} */
 /* img {
     display: block;
     margin-top: 10%;
@@ -71,16 +90,16 @@ h1 {
   } */
 
 /* Bootstrap Stuff */
-.bg-light {
+/* .bg-light {
     background-color: transparent!important;
-  }
+  } */
 html{
     height: 100%;
 }
 
 footer {
     flex-shrink: 0;
-  }
+}
 
 /* .page{
     margin-left: 72px;
@@ -122,7 +141,6 @@ footer {
     padding-right: 10%;
     margin: 10%;
 } */
-
   /* body{
     padding: 0;
     margin: 0;
