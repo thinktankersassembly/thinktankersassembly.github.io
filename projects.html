@@ -16,16 +16,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+            $(function(){
+                $(document).scroll(function(){
+                    var $nav = $("#mainNavbar");
+                    $nav.toggleClass("scrolled1", $(this).scrollTop() > $nav.height());
+                })
+            })
+        </script>
 
     <link rel ="stylesheet" type="text/css" href="art.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <title>ThinkTankers'Assembly Official Website</title>
 
 </head>
 
-<body style="background:#4EBC8C;">
+<body style="background:#307557;">
 <!-- Navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+<nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light">
     <div class= container>
         <a style=font-weight:800 class="navbar-brand" href="index.html">TTA.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-riza" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,11 +62,9 @@
     </nav>
 
 <section>
-<div>
     <div class="display-1 container">
         <h1 style="color:white" >WHAT DO WE DO?</h1>     
     </div>
-</div>
 </section>
 
 <section class= "px-5 pt-2">
@@ -93,9 +99,40 @@
                                 </div>
                             </div>
                         </div>
-        </div>
-                      
+        </div>             
 </section>
+<section>
+<div class="row align-items-sm-center justify-content-center">
+    <div class="col-sm-8 mx-4 my-2">
+        <div class="card bg-light mx-5 mt-3">
+            <div class="card-body">
+                <h5 id="upcom" style="font-weight:700; font-size: 3em;" class="card-title">Upcoming Session</h5>
+            </div>
+            <img src="Tta5.png" class="card-img-top" alt="...">
+        </div>
+    </div>
+</div>
+</section>
+
+
+<div class="container my-4 py-2 pl-4 pr-4">
+        <span class="border-top"></span>
+        <h1 style="font-size: 60px; font-weight:600; text-align: left; color:white" >TTA General Assembly</h1>
+        <p style="font-size: 18px; color:white; line-height: 1.5"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Thinkathon is the sub-project of the assembly which gathers young people to discuss the cultural, economic, global problems and also the problems that youth of today is challenging and to talk the solutions that can be brought to them by the actions of young communities.
+                Beyond that, the possible resolutions that today’s rule makers should  have for the discussed problems is being talked in the second step. The topic which is being discussed in this session are mostly related to the previous speech\ presentations.
+                 In the end of each session, the co-managers write down the highlights of the discussion and the resolutions which are found by the participants.
+                 The co-managers publish the notes that have been taken as the reports on the website ,which will be established soon, and also on the social platforms.</p>
+        <h1 style="font-size: 60px; font-weight:600; color:white" >Thinkathon</h1>
+            <p style="font-size: 18px; color:white; line-height: 1.5"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Thinkathon is the sub-project of the assembly which gathers young people to discuss the cultural, economic, global problems and also the problems that youth of today is challenging and to talk the solutions that can be brought to them by the actions of young communities.
+                    Beyond that, the possible resolutions that today’s rule makers should  have for the discussed problems is being talked in the second step. The topic which is being discussed in this session are mostly related to the previous speech\ presentations.
+                     In the end of each session, the co-managers write down the highlights of the discussion and the resolutions which are found by the participants.
+                     The co-managers publish the notes that have been taken as the reports on the website ,which will be established soon, and also on the social platforms.</p>     
+        <h1 style="font-size: 60px; font-weight:600; text-align: left; color:white" >Annual Iftar</h1>
+            <p style="font-size: 18px; color:white; line-height: 1.5"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Thinkathon is the sub-project of the assembly which gathers young people to discuss the cultural, economic, global problems and also the problems that youth of today is challenging and to talk the solutions that can be brought to them by the actions of young communities.
+                Beyond that, the possible resolutions that today’s rule makers should  have for the discussed problems is being talked in the second step. The topic which is being discussed in this session are mostly related to the previous speech\ presentations.
+                 In the end of each session, the co-managers write down the highlights of the discussion and the resolutions which are found by the participants.
+                 The co-managers publish the notes that have been taken as the reports on the website ,which will be established soon, and also on the social platforms.</p>
+</div>
 
 
 <!-- <section class="container-fluid">

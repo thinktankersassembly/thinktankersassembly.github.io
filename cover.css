@@ -13,7 +13,7 @@
     font-size: 3.5em;
     letter-spacing: 2px;
     margin-top: 25px;
-    font-weight:700;
+    font-weight:900;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -90,7 +90,7 @@
         font-size: 2.2em;
         letter-spacing: 2px;
         margin-top: 25px;
-        font-weight:700;
+        font-weight:900;
         text-shadow: 2px 2px 4px #000000;
     }
     
@@ -114,7 +114,7 @@
     }
 }
 * {
-    font-family:'Poppins';
+    font-family:'Muli';
     line-height:1.5em;
 }
 h1 {
