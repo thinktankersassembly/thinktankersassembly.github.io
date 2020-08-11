@@ -113,7 +113,6 @@ section {
   text-align: center;
   color: black;
   line-height: normal;
-
 }
 
 .cornmid {
@@ -122,7 +121,6 @@ section {
   text-align: center;
   color: black;
   line-height: normal;
-
 }
 
 .uppercon {
@@ -149,13 +147,11 @@ section {
   /* margin-left: 4%;
   margin-right: 4%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .textcon {
   margin: auto;
   padding: 3em;
-
 }
 
 .textclass {
@@ -163,8 +159,7 @@ section {
   color: rgb(207, 207, 207);
   line-height: 1.5;
   font-weight: 100;
-  line-height: normal (default):
-
+  line-height: normal;
 }
 .backgrcon {
   background-color: white;
@@ -174,26 +169,6 @@ section {
   background-image: url("images/bg-aboot.jpg");
   background-color: #cccccc;
   background-size: 100%;
-}
-
-@media only screen and (max-width: 767px) {
-  .navbar-nav.ml-auto {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  .navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
-    line-height: 0.3;
-    background: #fff;
-  }
-  h1 {
-    font-size: 38px;
-  }
-
-  #upcom {
-    font-size: 32px !important;
-    text-align: center;
-  }
 }
 
 .team4 {
@@ -228,6 +203,32 @@ section {
   color: #8d97ad;
   line-height: 24px;
   font-size: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+  h1 {
+    font-size: 38px;
+  }
+
+  #upcom {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .cornhead {
+    line-height: big;
+  }
+  .cornmid {
+    line-height: big;
+  }
 }
 
 /* .team4 ul li a {
