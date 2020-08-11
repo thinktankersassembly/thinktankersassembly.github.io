@@ -1,67 +1,71 @@
 /* For Navbar */
-.navbar-nav a{
-    font-family: poppins;
-    font-size: 18px;
-    /* text-transform: uppercase; */
-    font-weight: 500;
+.navbar-nav a {
+  font-family: poppins;
+  font-size: 18px;
+  /* text-transform: uppercase; */
+  font-weight: 500;
 }
 
-.navbar-light .navbar-brand{
-    font-family: poppins;
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 2px;
+.navbar-light .navbar-brand {
+  font-family: poppins;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
-.navbar-light .nabar-nav .active > .navlink, .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
-    color: #fff;
+.navbar-light .nabar-nav .active > .navlink,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #fff;
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
 }
-.navbar-nav{
-    text-align: center;
+.navbar-nav {
+  text-align: center;
 }
-.nav-link{
-    padding: .2rem 1rem;
+.nav-link {
+  padding: 0.2rem 1rem;
 }
-.nav-link.active, nav-link:focus, .navbar-light .navbar-nav .nav-linl:hover{
-    color: #fff !important;
+.nav-link.active,
+nav-link:focus,
+.navbar-light .navbar-nav .nav-linl:hover {
+  color: #fff !important;
 }
-.w-100{
-    height: 100vh;
-    object-fit: cover;
+.w-100 {
+  height: 100vh;
+  object-fit: cover;
 }
 
-body{
-    padding-top: 70px;
-    min-height: 100vh;
-    font-family: 'Muli';
-    line-height:1.5em;
+body {
+  padding-top: 70px;
+  min-height: 100vh;
+  font-family: "Muli";
+  line-height: 1.5em;
 }
 h1 {
-    font-weight:900;
-    color: white;
-    /* text-shadow: 1px 1px 2px #000000; */
-    text-align: right;
-    font-family:'Muli';
-    color: white;
-    font-size:72px;
-    /* -webkit-text-stroke: 0.5px black; */
+  font-weight: 900;
+  color: white;
+  /* text-shadow: 1px 1px 2px #000000; */
+  text-align: right;
+  font-family: "Muli";
+  color: white;
+  font-size: 72px;
+  /* -webkit-text-stroke: 0.5px black; */
 }
-h5{
-    font-weight: 700;
+h5 {
+  font-weight: 700;
 }
-h2{
-    font-weight:600;
-    font-size: 2.7em;
+h2 {
+  font-weight: 600;
+  font-size: 2.7em;
 }
-.blocktext{
-    font-weight:300;
-    font-size: 1.5em;
-    line-height: 1.5;
+.blocktext {
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.5;
 }
 /* @media (max-width: 1200px){
     h5{
@@ -79,45 +83,45 @@ h2{
 
 /* Bootstrap Stuff */
 .bg-light {
-    background-color: rgba(226,226,226,1)!important;
-  } 
-html{
-    height: 100%;
+  background-color: rgba(226, 226, 226, 1) !important;
+}
+html {
+  height: 100%;
 }
 
 footer {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
-.navbar.scrolled1{
-    background : #307557;
-    transition: background 500ms;
+.navbar.scrolled1 {
+  background: #307557;
+  transition: background 500ms;
 }
-.navbar.scrolled2{
-    background : #083D66;
-    transition: background 500ms;
+.navbar.scrolled2 {
+  background: #083d66;
+  transition: background 500ms;
 }
-@media only screen and (max-width: 767px){
-    .navbar-nav.ml-auto{
-        background: rgba(0,0,0,0.5);
-    }
-    .navbar-toggler{
-        padding: 1px 5px;
-        font-size: 18px;
-        line-height: 0.3;
-        background: #fff;
-    }
-    h1{
-        font-size:38px;
-    }
-    #upcom{
-        font-size:32px!important;
-        text-align:center;
-    }
+@media only screen and (max-width: 767px) {
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  #upcom {
+    font-size: 32px !important;
+    text-align: center;
+  }
 }
-section{
-    margin-top: 12px;
-    margin-bottom: 12px;
+section {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 /* .page{
     margin-left: 72px;
@@ -159,7 +163,7 @@ section{
     padding-right: 10%;
     margin: 10%;
 } */
-  /* body{
+/* body{
     padding: 0;
     margin: 0;
     border-collapse: collapse;
