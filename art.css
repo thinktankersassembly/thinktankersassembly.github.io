@@ -189,6 +189,32 @@ section {
       font-size: 32px !important;
       text-align: center;
     }
+    .content {
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+    .textcon {
+        margin: auto;
+        padding: 2%;
+      }
+      .cornhead {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      
+      .cornmid {
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: center;
+        color: black;
+      }
+      .textclass{
+        font-size: 0.7rem; 
+        color: rgb(207, 207, 207); 
+        line-height: 1.5;
+        font-weight: 100;"
+    }
+      
   }
 /* .page{
     margin-left: 72px;
