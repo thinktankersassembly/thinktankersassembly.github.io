@@ -102,7 +102,6 @@ footer {
   transition: background 500ms;
 }
 
-
 section {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -110,7 +109,7 @@ section {
 
 .cornhead {
   font-size: 2.5em;
-  font-weight: 700;
+  font-weight: 300;
   text-align: center;
   color: black;
 }
@@ -123,8 +122,8 @@ section {
 }
 
 .uppercon {
-    padding: 5em;
-    border-radius: 25px 25px 0px 0px;
+  padding: 5em;
+  border-radius: 25px 25px 0px 0px;
   margin-top: 4%;
   background-color: white;
 }
@@ -139,7 +138,7 @@ section {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   padding: 3.5em;
-  background-color: rgb(201, 201, 201);
+  background-color: rgba(201, 201, 201, 0.863);
 }
 
 .content {
@@ -153,11 +152,14 @@ section {
   padding: 3em;
 }
 
-.textclass{
-    font-size: 1.2em; 
-    color: rgb(207, 207, 207); 
-    line-height: 1.5;
-    font-weight: 100;"
+.textclass {
+  font-size: 1.2em;
+  color: rgb(207, 207, 207);
+  line-height: 1.5;
+  font-weight: 100;
+}
+.backgrcon {
+  background-color: white;
 }
 
 #bg-about {
@@ -167,26 +169,72 @@ section {
 }
 
 @media only screen and (max-width: 767px) {
-    .navbar-nav.ml-auto {
-      background: rgba(0, 0, 0, 0.5);
-    }
-    .navbar-toggler {
-      padding: 1px 5px;
-      font-size: 18px;
-      line-height: 0.3;
-      background: #fff;
-    }
-    h1 {
-      font-size: 38px;
-    }
-  
-    #upcom {
-      font-size: 32px !important;
-      text-align: center;
-    }
-
-
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.5);
   }
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+  h1 {
+    font-size: 38px;
+  }
+
+  #upcom {
+    font-size: 32px !important;
+    text-align: center;
+  }
+}
+
+.team4 {
+  font-family: "Muli";
+  color: #8d97ad;
+  font-weight: 300;
+  background-color: white;
+  padding-top: 3em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.team4 h1,
+.team4 h2,
+.team4 h3,
+.team4 h4,
+.team4 h5,
+.team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+  font-weight: 500;
+}
+
+.team4 h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.team4 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+  color: #316ce8;
+}
 /* .page{
     margin-left: 72px;
     margin-right: 72px;
