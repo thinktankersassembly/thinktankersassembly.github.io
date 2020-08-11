@@ -117,6 +117,12 @@ footer {
   .cornhead {
     font-size: 24px;
   }
+
+  .content {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   #upcom {
     font-size: 32px !important;
     text-align: center;
