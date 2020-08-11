@@ -224,10 +224,10 @@ section {
     text-align: center;
   }
   .cornhead {
-    font-size: 1em;
+    line-height: big !important;
   }
   .cornmid {
-    font-size: 1em;
+    line-height: big !important;
   }
 }
 
