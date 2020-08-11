@@ -98,7 +98,7 @@ footer {
   transition: background 500ms;
 }
 .navbar.scrolled2 {
-  background: #083d66;
+  background: #553621;
   transition: background 500ms;
 }
 @media only screen and (max-width: 767px) {
@@ -114,14 +114,56 @@ footer {
   h1 {
     font-size: 38px;
   }
+  .cornhead {
+    font-size: 24px;
+  }
   #upcom {
     font-size: 32px !important;
     text-align: center;
   }
 }
+
 section {
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+.cornhead {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.uppercon {
+  padding: 80px;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: 65px;
+  background-color: white;
+}
+
+.midcon {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  background-color: black;
+}
+
+.content {
+  margin-left: 75px;
+  margin-right: 75px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textcon {
+  margin: auto;
+  padding: 80px;
+  width: 60px;
+}
+
+#bg-about {
+  background-image: url("images/bg-aboot.jpg");
+  background-color: #cccccc;
+  background-size: 100%;
 }
 /* .page{
     margin-left: 72px;

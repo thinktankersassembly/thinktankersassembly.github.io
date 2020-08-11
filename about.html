@@ -1,81 +1,171 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="description" content="ThinkTankers'Assembly Official Website">
-    <meta name="keywords" content="TTA, ThinkTankers'Assembly, Thinktankers Assembly">
-    <meta name="author" content="Muhammad Riza Fairuzzabadi">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="ThinkTankers'Assembly Official Website" />
+    <meta
+      name="keywords"
+      content="TTA, ThinkTankers'Assembly, Thinktankers Assembly"
+    />
+    <meta name="author" content="Muhammad Riza Fairuzzabadi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Adding bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        $(function(){
-            $(document).scroll(function(){
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled2", $(this).scrollTop() > $nav.height());
-            })
-        })
-    </script>   
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled2", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
 
-    <link rel ="stylesheet" type="text/css" href="art.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="art.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
     <title>ThinkTankers'Assembly Official Website</title>
+  </head>
 
-</head>
-
-<body  style="background: #083D66">
-<!-- Navbar -->
-<nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light">
-    <div class= container>
-        <a style=font-weight:800 class="navbar-brand" href="index.html">TTA.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-riza" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <body id="bg-about">
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <a style="font-weight: 800;" class="navbar-brand" href="index.html"
+          >TTA.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-riza"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-riza">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">ThinkTankers'Assembly.</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >ThinkTankers'Assembly.</a
+              >
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
     </nav>
-<section>
-<div">
-    <div class="display-1 container">
-        <h1>THIS IS THINKTANKERS' ASSEMBLY.</h1>     
-    </div>
-</div>
-</section>
-<footer class="bg-dark text-white mt-4 fixed-bottom">
-    <div class="container-fluid py-3">
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4" style="text-align: center;">
-              <p style="font-size: 0.7em">Developed by ThinkTankers'Assembly. All Rights Reserved.</p>
+
+
+    <section>
+        <div">
+            <div class="display-1 container">
+            <h1>THIS IS THINKTANKERS' ASSEMBLY.</h1>     
             </div>
-            <div class="col-md-4"></div>
+        </div> 
+    </section>
+
+    <section >
+        <div class="content uppercon">
+            <h1
+            class="cornhead"
+            >
+            An assembly for Istanbul's thinktankers.
+          </h1>
+          <p style="font-size:20px; color: grey;line-height: normal; text-align: center;">Improvidus, Aptop, quod Victum</p>
+        </div>
+        <div class="content midcon">
+            <div class="row">
+               <div class="col-sm textcon"> 
+                    <p style="font-size: 18px; color: rgb(207, 207, 207); line-height: 1.5;">
+                    Established in 2019, ThinkTankers'Assembly's main mission is to be a multicultural platform for thinktankers from distinct fields to assemble with 
+                    other thinktankers to exchange and discuss their ideas, creating a generation that is not only having ideas, 
+                    but able to express it, raise awareness and put them into realization.
+                    </p>
+                </div>
+                <div class= "col-sm">
+                    <img src="images/thinking1.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footy">
+        <div class="footy-content">
+            <div class="footy-content"></div>
+            <div class="footy-section links"</div>
+            <div class="footer=section contact"></div>
+        </div>
+
+        <div class="footy-bottom">
         </div>
     </div>
-</footer>
-</body>
+
+ <!---  <footer class="bg-dark text-white mt-4 fixed-bottom">
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4" style="text-align: center;">
+            <p style="font-size: 0.7em;">
+              Developed by ThinkTankers'Assembly. All Rights Reserved.
+            </p>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </footer> -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

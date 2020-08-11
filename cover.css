@@ -126,6 +126,8 @@ h1 {
   font-size: 4.5em;
   text-shadow: 2px 2px 4px #000000;
 }
-/* html{
-    height: 100%;
-} */
+.blur {
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
