@@ -144,8 +144,8 @@ section {
 }
 
 .content {
-  margin-left: 4%;
-  margin-right: 4%;
+  /* margin-left: 4%;
+  margin-right: 4%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -155,14 +155,10 @@ section {
 }
 
 .textclass{
-    font-size: 1.3rem; 
+    font-size: 1.2rem; 
     color: rgb(207, 207, 207); 
     line-height: 1.5;
     font-weight: 100;"
-}
-
-.imagecon{
-    height: 100%;
 }
 
 #bg-about {
@@ -188,31 +184,6 @@ section {
     #upcom {
       font-size: 32px !important;
       text-align: center;
-    }
-    .content {
-        margin-left: 2%;
-        margin-right: 2%;
-      }
-    .textcon {
-        margin: auto;
-        padding: 2%;
-      }
-      .cornhead {
-        font-size: 1rem;
-        font-weight: 700;
-      }
-      
-      .cornmid {
-        font-size: 1rem;
-        font-weight: 100;
-        text-align: center;
-        color: black;
-      }
-      .textclass{
-        font-size: 0.7rem; 
-        color: rgb(207, 207, 207); 
-        line-height: 1.5;
-        font-weight: 100;"
     }
       
   }
