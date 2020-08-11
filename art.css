@@ -109,21 +109,21 @@ section {
 }
 
 .cornhead {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: 700;
   text-align: center;
   color: black;
 }
 
 .cornmid {
-  font-size: 2.2rem;
+  font-size: 2.2em;
   font-weight: 100;
   text-align: center;
   color: black;
 }
 
 .uppercon {
-    padding: 3rem;
+    padding: 5em;
     border-radius: 25px 25px 0px 0px;
   margin-top: 4%;
   background-color: white;
@@ -138,7 +138,7 @@ section {
 .gallcon {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-  padding: 3rem;
+  padding: 3.5em;
   background-color: rgb(201, 201, 201);
 }
 
@@ -150,11 +150,11 @@ section {
 
 .textcon {
   margin: auto;
-  padding: 3rem;
+  padding: 3em;
 }
 
 .textclass{
-    font-size: 1.2rem; 
+    font-size: 1.2em; 
     color: rgb(207, 207, 207); 
     line-height: 1.5;
     font-weight: 100;"
@@ -184,7 +184,8 @@ section {
       font-size: 32px !important;
       text-align: center;
     }
-      
+
+
   }
 /* .page{
     margin-left: 72px;
