@@ -135,6 +135,13 @@ section {
   color: black;
 }
 
+.cornmid {
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+  color: black;
+}
+
 .uppercon {
   padding: 80px;
   border-radius: 25px 25px 0px 0px;
@@ -145,7 +152,15 @@ section {
 .midcon {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+.gallcon {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(201, 201, 201);
 }
 
 .content {
