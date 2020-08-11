@@ -43,7 +43,7 @@ body {
   padding-top: 70px;
   min-height: 100vh;
   font-family: "Muli";
-  line-height: 1.5em;
+  line-height: normal;
 }
 h1 {
   font-weight: 900;
@@ -112,6 +112,8 @@ section {
   font-weight: 300;
   text-align: center;
   color: black;
+  line-height: normal (default);
+
 }
 
 .cornmid {
@@ -119,6 +121,8 @@ section {
   font-weight: 100;
   text-align: center;
   color: black;
+  line-height: normal (default);
+
 }
 
 .uppercon {
@@ -145,11 +149,13 @@ section {
   /* margin-left: 4%;
   margin-right: 4%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .textcon {
   margin: auto;
   padding: 3em;
+
 }
 
 .textclass {
@@ -157,6 +163,8 @@ section {
   color: rgb(207, 207, 207);
   line-height: 1.5;
   font-weight: 100;
+  line-height: normal (default):
+
 }
 .backgrcon {
   background-color: white;
@@ -222,7 +230,7 @@ section {
   font-size: 13px;
 }
 
-.team4 ul li a {
+/* .team4 ul li a {
   color: #8d97ad;
   padding-right: 15px;
   -webkit-transition: 0.1s ease-in;
@@ -234,7 +242,7 @@ section {
   -webkit-transform: translate3d(0px, -5px, 0px);
   transform: translate3d(0px, -5px, 0px);
   color: #316ce8;
-}
+} */
 /* .page{
     margin-left: 72px;
     margin-right: 72px;
