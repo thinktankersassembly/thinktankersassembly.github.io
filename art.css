@@ -123,8 +123,8 @@ section {
 }
 
 .uppercon {
-  padding: 5%;
-  border-radius: 25px 25px 0px 0px;
+    padding: 3rem;
+    border-radius: 25px 25px 0px 0px;
   margin-top: 4%;
   background-color: white;
 }
@@ -138,8 +138,7 @@ section {
 .gallcon {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding: 3rem;
   background-color: rgb(201, 201, 201);
 }
 
@@ -151,7 +150,7 @@ section {
 
 .textcon {
   margin: auto;
-  padding: 5%;
+  padding: 3rem;
 }
 
 .textclass{
