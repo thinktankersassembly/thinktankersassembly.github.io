@@ -179,6 +179,11 @@ section {
   padding-top: 3em;
   padding-left: 10%;
   padding-right: 10%;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.footcon {
+  padding: 1.5em;
 }
 
 .team4 h1,
