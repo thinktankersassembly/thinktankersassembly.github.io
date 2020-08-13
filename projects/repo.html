@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="ThinkTankers'Assembly Official Website" />
+    <meta
+      name="keywords"
+      content="TTA, ThinkTankers'Assembly, Thinktankers Assembly"
+    />
+    <meta name="author" content="Muhammad Riza Fairuzzabadi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Adding bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled1", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="art.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <title>ThinkTankers'Assembly Official Website</title>
+  </head>
+
+  <body id="bg-projects">
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <a style="font-weight: 800;" class="navbar-brand" href="index.html"
+          >TTA.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-riza"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-riza">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link navselected" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="mailto:riza@fairuzzabadi.com?subject = Feedback&body = Message"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled navselected"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >ThinkTankers'Assembly.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="display-1 container">
+        <h1 style="color: white;">WHAT DO WE DO?</h1>
+      </div>
+
+      <div class="container footcon">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <img
+              src="images/TTA Logo White.png"
+              class="img-fluid w-25 mx-auto d-block rounded-circle"
+              alt="Logo"
+            />
+          </div>
+          <div class="col"></div>
+        </div>
+        <br />
+        <p style="color: grey; text-align: center;">
+          &copy; 2020 ThinkTankers'Assembly.
+        </p>
+      </div>
+    </section>
+
+    <!-- Thinkathon is the sub-project of the
+        assembly which gathers young people to discuss the cultural, economic,
+        global problems and also the problems that youth of today is challenging
+        and to talk the solutions that can be brought to them by the actions of
+        young communities. Beyond that, the possible resolutions that today’s
+        rule makers should  have for the discussed problems is being talked in
+        the second step. The topic which is being discussed in this session are
+        mostly related to the previous speech\ presentations. In the end of each
+        session, the co-managers write down the highlights of the discussion and
+        the resolutions which are found by the participants. The co-managers
+        publish the notes that have been taken as the reports on the website
+        ,which will be established soon, and also on the social platforms. -->
+  </body>
+</html>
