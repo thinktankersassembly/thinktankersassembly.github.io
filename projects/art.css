@@ -274,16 +274,8 @@ section {
   .cornmid {
     line-height: big !important;
   }
-  #bg-about {
+  #bg-repo {
     background-image: url("images/bg-aboot.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  #bg-projects {
-    background-image: url("images/bg-proj.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;

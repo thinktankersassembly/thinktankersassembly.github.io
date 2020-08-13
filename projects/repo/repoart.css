@@ -67,20 +67,6 @@ h2 {
   font-size: 1.5em;
   line-height: 1.5;
 }
-/* @media (max-width: 1200px){
-    h5{
-        font-size : 3em; 
-    }
-} */
-/* img {
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  } */
-
 /* Bootstrap Stuff */
 .bg-light {
   background-color: rgba(226, 226, 226, 1) !important;
@@ -112,9 +98,9 @@ section {
 }
 
 .cornhead {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   color: black;
   line-height: normal;
 }
@@ -137,13 +123,12 @@ section {
 }
 
 #downproj {
-  /* margin-bottom: 4% !important; */
   border-radius: 0px 0px 25px 25px;
 }
 
 .uppercon {
-  padding: 5em;
-  border-radius: 25px 25px 0px 0px;
+  padding: 4em;
+  border-radius: 25px 25px 25px 25px;
   margin-top: 4%;
   background-color: rgba(255, 255, 255, 0.829);
 }
@@ -162,8 +147,6 @@ section {
 }
 
 .content {
-  /* margin-left: 4%;
-  margin-right: 4%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -183,71 +166,12 @@ section {
   background-color: rgba(255, 255, 255, 0.829);
 }
 
-#bg-about {
-  background-image: url("images/bg-aboot.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
-#bg-projects {
-  background-image: url("images/bg-proj.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
 #bg-repo {
   background-image: url("images/bg.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
-}
-
-#imgdown {
-  border-radius: 0px 05px 25px 0px;
-}
-
-.team4 {
-  font-family: "Muli";
-  color: #8d97ad;
-  font-weight: 300;
-  background-color: rgba(255, 255, 255, 0.829);
-  padding-top: 3em;
-  padding-left: 10%;
-  padding-right: 10%;
-  border-radius: 0px 0px 25px 25px;
-}
-
-.footcon {
-  padding: 1.5em;
-}
-
-.team4 h1,
-.team4 h2,
-.team4 h3,
-.team4 h4,
-.team4 h5,
-.team4 h6 {
-  color: #3e4555;
-}
-
-.team4 .font-weight-medium {
-  font-weight: 500;
-}
-
-.team4 h5 {
-  line-height: 22px;
-  font-size: 18px;
-}
-
-.team4 .subtitle {
-  color: #8d97ad;
-  line-height: 24px;
-  font-size: 13px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -264,6 +188,10 @@ section {
     font-size: 38px;
   }
 
+  .uppercon {
+    padding: 2em;
+  }
+
   #upcom {
     font-size: 32px !important;
     text-align: center;
@@ -274,80 +202,11 @@ section {
   .cornmid {
     line-height: big !important;
   }
-  #bg-about {
+  #bg-repo {
     background-image: url("images/bg-aboot.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
-
-  #bg-projects {
-    background-image: url("images/bg-proj.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
 }
-
-/* .team4 ul li a {
-  color: #8d97ad;
-  padding-right: 15px;
-  -webkit-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-}
-
-.team4 ul li a:hover {
-  -webkit-transform: translate3d(0px, -5px, 0px);
-  transform: translate3d(0px, -5px, 0px);
-  color: #316ce8;
-} */
-/* .page{
-    margin-left: 72px;
-    margin-right: 72px;
-    width: 100%;
-    margin-top: 72px;
-    margin-bottom: 72px;
- }
-.page1{
-    font-size: 1.125em;
-    font-weight: 400;
-    text-align: left;
-    width: 50%;
-    padding-left:10%;
-    padding-right: 10%;
-}
-.headerpage1{
-    font-size: 2em;
-    font-weight: 700;
-    text-align: left;
-    width: 50%;
-}
-.page2{
-    font-size: 1.125em;
-    font-weight: 400;
-    text-align: right;
-    width: 50%;
-    padding-left:10%;
-    padding-right: 10%;
-}
-.headerpage2{
-    font-size: 2em;
-    font-weight: 700;
-    text-align: right;
-    width: 50%
-}
-.picture{
-    padding-left:10%;
-    padding-right: 10%;
-    margin: 10%;
-} */
-/* body{
-    padding: 0;
-    margin: 0;
-    border-collapse: collapse;
-    border-spacing: 0;
-    padding-top :0px;
-} */
