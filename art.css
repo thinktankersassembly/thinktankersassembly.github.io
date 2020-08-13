@@ -94,7 +94,7 @@ footer {
 }
 
 .navbar.scrolled1 {
-  background: #307557;
+  background: #000000c4;
   transition: background 500ms;
 }
 .navbar.scrolled2 {
@@ -127,6 +127,16 @@ section {
   line-height: normal;
 }
 
+#upperproj {
+  margin-top: 4% !important;
+  border-radius: 25px 25px 0px 0px;
+}
+
+#downproj {
+  /* margin-bottom: 4% !important; */
+  border-radius: 0px 0px 25px 25px;
+}
+
 .uppercon {
   padding: 5em;
   border-radius: 25px 25px 0px 0px;
@@ -143,7 +153,7 @@ section {
 .gallcon {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-  padding: 3.5em;
+  padding: 3.2em;
   background-color: rgba(201, 201, 201, 0.863);
 }
 
@@ -175,6 +185,18 @@ section {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+}
+
+#bg-projects {
+  background-image: url("images/bg-proj.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#imgdown {
+  border-radius: 0px 05px 25px 0px;
 }
 
 .team4 {
@@ -239,6 +261,21 @@ section {
   }
   .cornmid {
     line-height: big !important;
+  }
+  #bg-about {
+    background-image: url("images/bg-aboot.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #bg-projects {
+    background-image: url("images/bg-proj.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
