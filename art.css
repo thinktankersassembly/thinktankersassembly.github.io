@@ -43,7 +43,7 @@ body {
   padding-top: 70px;
   min-height: 100vh;
   font-family: "Muli";
-  line-height: normal;
+  line-height: 1.5em;
 }
 h1 {
   font-weight: 900;
@@ -98,8 +98,12 @@ footer {
   transition: background 500ms;
 }
 .navbar.scrolled2 {
-  background: #553621;
+  background: #002e3aef;
   transition: background 500ms;
+}
+
+.navselected {
+  color: rgba(255, 255, 255, 0.342) !important;
 }
 
 section {
@@ -127,7 +131,7 @@ section {
   padding: 5em;
   border-radius: 25px 25px 0px 0px;
   margin-top: 4%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.829);
 }
 
 .midcon {
@@ -162,20 +166,22 @@ section {
   line-height: normal;
 }
 .backgrcon {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.829);
 }
 
 #bg-about {
   background-image: url("images/bg-aboot.jpg");
   background-color: #cccccc;
+  background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 .team4 {
   font-family: "Muli";
   color: #8d97ad;
   font-weight: 300;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.829);
   padding-top: 3em;
   padding-left: 10%;
   padding-right: 10%;
