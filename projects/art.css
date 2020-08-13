@@ -67,19 +67,6 @@ h2 {
   font-size: 1.5em;
   line-height: 1.5;
 }
-/* @media (max-width: 1200px){
-    h5{
-        font-size : 3em; 
-    }
-} */
-/* img {
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  } */
 
 /* Bootstrap Stuff */
 .bg-light {
@@ -104,27 +91,6 @@ footer {
 
 .navselected {
   color: rgba(255, 255, 255, 0.342) !important;
-}
-
-section {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.cornhead {
-  font-size: 2.5em;
-  font-weight: 300;
-  text-align: center;
-  color: black;
-  line-height: normal;
-}
-
-.cornmid {
-  font-size: 2.2em;
-  font-weight: 100;
-  text-align: center;
-  color: black;
-  line-height: normal;
 }
 
 #upperproj {
@@ -183,22 +149,6 @@ section {
   background-color: rgba(255, 255, 255, 0.829);
 }
 
-#bg-about {
-  background-image: url("images/bg-aboot.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
-#bg-projects {
-  background-image: url("images/bg-proj.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
 #bg-repo {
   background-image: url("images/bg.jpg");
   background-color: #cccccc;
@@ -224,30 +174,6 @@ section {
 
 .footcon {
   padding: 1.5em;
-}
-
-.team4 h1,
-.team4 h2,
-.team4 h3,
-.team4 h4,
-.team4 h5,
-.team4 h6 {
-  color: #3e4555;
-}
-
-.team4 .font-weight-medium {
-  font-weight: 500;
-}
-
-.team4 h5 {
-  line-height: 22px;
-  font-size: 18px;
-}
-
-.team4 .subtitle {
-  color: #8d97ad;
-  line-height: 24px;
-  font-size: 13px;
 }
 
 @media only screen and (max-width: 767px) {
