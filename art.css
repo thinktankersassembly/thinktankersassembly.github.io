@@ -199,14 +199,6 @@ section {
   background-attachment: fixed;
 }
 
-#bg-repo {
-  background-image: url("images/bg.jpg");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
 #imgdown {
   border-radius: 0px 05px 25px 0px;
 }
