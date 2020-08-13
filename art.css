@@ -67,19 +67,6 @@ h2 {
   font-size: 1.5em;
   line-height: 1.5;
 }
-/* @media (max-width: 1200px){
-    h5{
-        font-size : 3em; 
-    }
-} */
-/* img {
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  } */
 
 /* Bootstrap Stuff */
 .bg-light {
@@ -111,6 +98,7 @@ section {
   margin-bottom: 12px;
 }
 
+/* Fontnya header sama isi konten */
 .cornhead {
   font-size: 2.5em;
   font-weight: 300;
@@ -127,6 +115,8 @@ section {
   line-height: normal;
 }
 
+/* Margin untuk masing2 */
+
 #upperproj {
   margin-top: 4% !important;
   border-radius: 25px 25px 0px 0px;
@@ -140,6 +130,22 @@ section {
   /* margin-bottom: 4% !important; */
   border-radius: 0px 0px 25px 25px;
 }
+
+/* Untuk bagian established */
+.textclass {
+  font-size: 1.2em;
+  color: rgb(207, 207, 207);
+  line-height: 1.5;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.textcon {
+  margin: auto;
+  padding: 3em;
+}
+
+/* Padding, margin bagian bagian */
 
 .uppercon {
   padding: 5em;
@@ -162,26 +168,14 @@ section {
 }
 
 .content {
-  /* margin-left: 4%;
-  margin-right: 4%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.textcon {
-  margin: auto;
-  padding: 3em;
-}
-
-.textclass {
-  font-size: 1.2em;
-  color: rgb(207, 207, 207);
-  line-height: 1.5;
-  font-weight: 100;
-  line-height: normal;
-}
 .backgrcon {
   background-color: rgba(255, 255, 255, 0.829);
 }
+
+/* For bg */
 
 #bg-about {
   background-image: url("images/bg-aboot.jpg");
