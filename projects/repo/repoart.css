@@ -79,6 +79,10 @@ footer {
   flex-shrink: 0;
 }
 
+.footcon {
+  padding: 1.5em;
+}
+
 .navbar.scrolled1 {
   background: #000000c4;
   transition: background 500ms;
