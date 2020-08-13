@@ -207,7 +207,7 @@ section {
     line-height: big !important;
   }
   #bg-repo {
-    background-image: url("images/bg-aboot.jpg");
+    background-image: url("images/bg.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
