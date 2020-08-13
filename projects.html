@@ -41,7 +41,12 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script>$(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled1", $(this).scrollTop() > $nav.height());
+      });
+    });</script>
 
     <link rel="stylesheet" type="text/css" href="art.css" />
     <link
