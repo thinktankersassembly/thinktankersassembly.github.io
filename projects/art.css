@@ -132,6 +132,10 @@ section {
   border-radius: 25px 25px 0px 0px;
 }
 
+#repoupper {
+  margin-bottom: 4% !important;
+}
+
 #downproj {
   /* margin-bottom: 4% !important; */
   border-radius: 0px 0px 25px 25px;
@@ -189,6 +193,14 @@ section {
 
 #bg-projects {
   background-image: url("images/bg-proj.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#bg-repo {
+  background-image: url("images/bg.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: 100%;
