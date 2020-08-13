@@ -93,60 +93,12 @@ footer {
   color: rgba(255, 255, 255, 0.342) !important;
 }
 
-#upperproj {
-  margin-top: 4% !important;
-  border-radius: 25px 25px 0px 0px;
-}
-
 #repoupper {
   margin-bottom: 4% !important;
 }
 
-#downproj {
-  /* margin-bottom: 4% !important; */
-  border-radius: 0px 0px 25px 25px;
-}
-
-.uppercon {
-  padding: 5em;
-  border-radius: 25px 25px 0px 0px;
-  margin-top: 4%;
-  background-color: rgba(255, 255, 255, 0.829);
-}
-
-.midcon {
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  background-color: rgba(0, 0, 0, 0.705);
-}
-
-.gallcon {
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  padding: 3.2em;
-  background-color: rgba(201, 201, 201, 0.863);
-}
-
 .content {
-  /* margin-left: 4%;
-  margin-right: 4%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.textcon {
-  margin: auto;
-  padding: 3em;
-}
-
-.textclass {
-  font-size: 1.2em;
-  color: rgb(207, 207, 207);
-  line-height: 1.5;
-  font-weight: 100;
-  line-height: normal;
-}
-.backgrcon {
-  background-color: rgba(255, 255, 255, 0.829);
 }
 
 #bg-repo {
@@ -159,17 +111,6 @@ footer {
 
 #imgdown {
   border-radius: 0px 05px 25px 0px;
-}
-
-.team4 {
-  font-family: "Muli";
-  color: #8d97ad;
-  font-weight: 300;
-  background-color: rgba(255, 255, 255, 0.829);
-  padding-top: 3em;
-  padding-left: 10%;
-  padding-right: 10%;
-  border-radius: 0px 0px 25px 25px;
 }
 
 .footcon {
@@ -208,64 +149,3 @@ footer {
     background-attachment: fixed;
   }
 }
-
-/* .team4 ul li a {
-  color: #8d97ad;
-  padding-right: 15px;
-  -webkit-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-}
-
-.team4 ul li a:hover {
-  -webkit-transform: translate3d(0px, -5px, 0px);
-  transform: translate3d(0px, -5px, 0px);
-  color: #316ce8;
-} */
-/* .page{
-    margin-left: 72px;
-    margin-right: 72px;
-    width: 100%;
-    margin-top: 72px;
-    margin-bottom: 72px;
- }
-.page1{
-    font-size: 1.125em;
-    font-weight: 400;
-    text-align: left;
-    width: 50%;
-    padding-left:10%;
-    padding-right: 10%;
-}
-.headerpage1{
-    font-size: 2em;
-    font-weight: 700;
-    text-align: left;
-    width: 50%;
-}
-.page2{
-    font-size: 1.125em;
-    font-weight: 400;
-    text-align: right;
-    width: 50%;
-    padding-left:10%;
-    padding-right: 10%;
-}
-.headerpage2{
-    font-size: 2em;
-    font-weight: 700;
-    text-align: right;
-    width: 50%
-}
-.picture{
-    padding-left:10%;
-    padding-right: 10%;
-    margin: 10%;
-} */
-/* body{
-    padding: 0;
-    margin: 0;
-    border-collapse: collapse;
-    border-spacing: 0;
-    padding-top :0px;
-} */
