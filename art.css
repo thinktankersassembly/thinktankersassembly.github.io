@@ -181,7 +181,7 @@ section {
   background-image: url("images/bg-aboot.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -189,7 +189,7 @@ section {
   background-image: url("images/bg-proj.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
