@@ -14,12 +14,12 @@
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T">
       <!-- Adding bootstrap -->
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-      />
+      >
       <!--New Bootstrap Version-->
       <!-- CSS only -->
       <link
@@ -27,7 +27,7 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
         crossorigin="anonymous"
-      />
+      >
       <!-- JS, Popper.js, and jQuery -->
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -44,20 +44,26 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"
       ></script>
-    <script src="script.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="art.css" />
+    <link rel="stylesheet" type="text/css" href="art.css">
     <link
       href="https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
-    />
+    >
     <link
       rel="icon"
       type="image/png"
       href="images/favicon-32x32.png"
       sizes="32x32"
-    />
-    <title>ThinkTankers'Assembly Official Website</title>
+    >
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled1", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>    <title>ThinkTankers'Assembly Official Website</title>
   </head>
 
   <body id="bg-about">
