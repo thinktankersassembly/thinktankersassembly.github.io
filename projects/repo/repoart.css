@@ -196,6 +196,10 @@ section {
     padding: 2em;
   }
 
+  .logomobile {
+    width: 50% !important;
+  }
+
   #upcom {
     font-size: 32px !important;
     text-align: center;
