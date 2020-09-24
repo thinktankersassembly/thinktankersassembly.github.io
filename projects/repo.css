@@ -134,6 +134,11 @@ footer {
     width: 50% !important;
   }
 
+  .cardmobile {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+  }
   #upcom {
     font-size: 32px !important;
     text-align: center;

@@ -177,6 +177,13 @@ section {
   background-size: cover;
   background-attachment: fixed;
 }
+#bg-sena1 {
+  background-image: url("images/senabg.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 @media only screen and (max-width: 767px) {
   .navbar-nav.ml-auto {
@@ -212,6 +219,13 @@ section {
   }
   #bg-repo {
     background-image: url("images/bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #bg-sena1 {
+    background-image: url("images/senabg.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
