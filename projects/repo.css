@@ -117,6 +117,10 @@ footer {
   padding: 1.5em;
 }
 
+.sketch {
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 767px) {
   .navbar-nav.ml-auto {
     background: rgba(0, 0, 0, 0.5);
@@ -135,9 +139,11 @@ footer {
   }
 
   .cardmobile {
+    margin-top: 15px;
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin-bottom: 15px; /* Added */
+    width: 23em !important;
   }
   #upcom {
     font-size: 32px !important;
@@ -155,5 +161,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+  }
+  #repoupper {
+    margin-bottom: 6% !important;
   }
 }
