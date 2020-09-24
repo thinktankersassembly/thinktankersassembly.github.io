@@ -140,7 +140,7 @@ footer {
 
   .cardmobile {
     margin-top: 15px;
-    margin: 0 auto; /* Added */
+    margin: 0 auto !important; /* Added */
     float: none; /* Added */
     margin-bottom: 15px; /* Added */
     width: 23em !important;

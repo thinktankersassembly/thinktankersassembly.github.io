@@ -211,6 +211,10 @@ section {
     width: 50% !important;
   }
 
+  #imgdown {
+    margin-bottom: 1em;
+  }
+
   #upcom {
     font-size: 32px !important;
     text-align: center;
