@@ -91,6 +91,10 @@ footer {
   background: #131823d5;
   transition: background 500ms;
 }
+.navbar.scrolledscre {
+  background: #979774;
+  transition: background 500ms;
+}
 
 .navselected {
   color: rgba(255, 255, 255, 0.342) !important;
@@ -190,6 +194,15 @@ section {
   height: 100%;
 }
 
+#bg-yahya {
+  background-image: url("images/yahya-bg.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar-nav.ml-auto {
     background: rgba(0, 0, 0, 0.5);
@@ -235,6 +248,13 @@ section {
   }
   #bg-sena1 {
     background-image: url("images/senabg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #bg-yahya {
+    background-image: url("images/yahya-bg.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
